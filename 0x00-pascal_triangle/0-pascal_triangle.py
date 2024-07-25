@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-that returns a list of lists of integers representing the Pascal’s triangle of n 
+that returns a list of lists of integers representing
+the Pascal’s triangle of n
 """
 
 
@@ -26,7 +27,7 @@ def pascal_triangle(n):
         final_list[i-1][0] = 1
         final_list[i-1][i-1] = 1
 
-        #calculate middle numbers
+        # calculate middle numbers
         for j in range(1, i - 1):
             final_list[i-1][j] = \
                     final_list[i-2][j-1] + final_list[i-2][j]
