@@ -11,7 +11,7 @@ def minOperations(n):
     clipboard = 0
     done = 1
     while done < n:
-        if clipboard == 0:')
+        if clipboard == 0:
             clipboard = done
             done += clipboard
             ops_count += 2
