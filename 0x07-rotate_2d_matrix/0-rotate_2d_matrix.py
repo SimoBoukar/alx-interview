@@ -1,10 +1,14 @@
 #!/usr/bin/python3
-"""2D matrix rotation module.
+"""
+Rotate 2D Matrix
 """
 
 
 def rotate_2d_matrix(matrix):
-    """Rotates an m by n 2D matrix in place.
+    """
+    Rotate a 2D matrix 90 degrees clockwise and prepare for vertical printing.
+    Args:
+        matrix (list[list]): The 2D matrix to rotate.
     """
     if type(matrix) != list:
         return
